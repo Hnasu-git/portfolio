@@ -1,0 +1,174 @@
+@charset "UTF-8";
+body {
+    background-color: #fff;
+    font-family: 'M PLUS 1', sans-serif;
+    font-size: 1rem;
+}
+h2 {
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.all-wrap {
+    overflow: hidden;
+}
+.main-visual {
+    max-width: 90%;
+    margin: auto;
+    display: block;
+}
+.main-logo {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #40E0D0;
+    margin: 10px;
+}
+.wrap h2 {
+    margin-top: 32px;
+    margin-bottom: 51px;
+}
+.wrapper-text {
+    display: flex;
+    justify-content: space-around;
+}
+.wrapper-text .section-text  {
+    display: flex;
+	align-items: center;
+}
+.section-wrap p {
+    text-align: center;
+    padding-top: 50px;
+}
+.wrapper-secondtext {
+    margin-top: 85px;
+    display: flex;
+    justify-content: space-around;
+}
+.wrapper-secondtext .section-secondtext {
+    display: flex;
+    align-items: center;
+}
+.section-secondwrap p {
+    text-align: center;
+    padding-top: 50px;
+}
+.wrapper-thirdtext {
+    margin-top: 85px;
+    display: flex;
+    justify-content: space-around;
+}
+.wrapper-thirdtext .section-thirdtext {
+    display: flex;
+    align-items: center;
+}
+.section-thirdwrap p {
+    text-align: center;
+    padding-top: 50px;
+}
+.text-message h2 {
+    margin-top: 85px;
+}
+.work {
+    text-align: center;
+}
+.work p {
+    text-align: left;
+    display: inline-block;
+}
+.table-time h2 {
+    margin-top: 85px;
+}
+.biz-hour {
+    margin: auto;
+    border-collapse: collapse;
+    overflow-x: scroll;
+}
+td {
+    background-color: #E0FFFF;
+}
+.time-color {
+    background-color: #fff;
+}
+.biz-hour th, .biz-hour td {
+    padding: 10px 20px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+.map-logo h2 {
+    margin-top: 85px;
+    margin-bottom: 85px;
+}
+.map-info {
+    display: flex;
+    justify-content: space-around;
+}
+h3 {
+    font-size: 36px;
+}
+.address p {
+    padding-bottom: 46px;
+}
+.address h3 {
+    padding-bottom: 46px;
+}
+iframe {
+    width: 490px;
+    height: 282px;
+}
+footer {
+    text-align: center;
+    margin: 40px;
+}
+
+@media screen and (max-width: 767px) {
+
+html {
+    max-width: 100%;
+}
+.img {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+body {
+    margin: 0;
+    font-size: 1rem;
+}
+p {
+    margin: auto;
+}
+.wrapper-text {
+    flex-direction: column;
+    text-align: center;
+}
+.wrapper-secondtext {
+    flex-direction: column-reverse;
+    text-align: center;
+}
+.wrapper-thirdtext {
+    flex-direction: column;
+    text-align: center;
+}
+.main-logo {
+    font-size: 1.5rem;
+}
+.main-visual {
+    max-width: 90%;
+    margin: auto;
+}
+.map-info {
+    flex-direction: column;
+    text-align: center;
+}
+.biz-hour th, .biz-hour td {
+    padding: 10px 10px;
+}
+
+.biz-hour th {
+  font-weight: normal;
+}
+}
+
